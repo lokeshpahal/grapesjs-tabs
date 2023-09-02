@@ -9,6 +9,7 @@ export default (editor, { tabsBlock, typeTabs }) => {
     `,
     label: 'Tabs',
     content: { type: typeTabs },
+    category: 'Basic',
     ...tabsBlock
   });
 }
